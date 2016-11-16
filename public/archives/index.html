@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion">
+<html class="theme-next pisces use-motion">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -29,7 +29,7 @@
 
   
   
-  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
 
 
@@ -63,7 +63,7 @@
 
 
 
-<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
 
 <link href="/css/main.css?v=5.0.2" rel="stylesheet" type="text/css" />
 
@@ -85,24 +85,24 @@
 
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="PM">
 <meta property="og:url" content="http://yoursite.com/archives/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="PM">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="PM">
 
 
 
 <script type="text/javascript" id="hexo.configuration">
   var NexT = window.NexT || {};
   var CONFIG = {
-    scheme: 'Muse',
+    scheme: 'Pisces',
     sidebar: {"position":"left","display":"post"},
     fancybox: true,
     motion: true,
     duoshuo: {
       userId: '0',
-      author: 'Author'
+      author: '博主'
     }
   };
 </script>
@@ -113,14 +113,24 @@
   <link rel="canonical" href="http://yoursite.com/archives/"/>
 
 
-  <title> Archiv | Hexo </title>
+  <title> 归档 | PM </title>
 </head>
 
-<body itemscope itemtype="//schema.org/WebPage" lang="">
+<body itemscope itemtype="//schema.org/WebPage" lang="zh-Hans">
 
   
 
 
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?ca67f3f9581be1de58e80a447fc3b6be";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 
 
 
@@ -138,13 +148,13 @@
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="//schema.org/WPHeader">
-      <div class="header-inner"><div class="site-meta ">
+      <div class="header-inner"><div class="site-meta custom-logo">
   
 
   <div class="custom-logo-site-title">
     <a href="/"  class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <span class="site-title">Hexo</span>
+      <span class="site-title">PM</span>
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
@@ -169,7 +179,19 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-            Startseite
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
           </a>
         </li>
       
@@ -177,7 +199,9 @@
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
             
-            Archiv
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
           </a>
         </li>
       
@@ -185,15 +209,9 @@
         <li class="menu-item menu-item-tags">
           <a href="/tags" rel="section">
             
-            Tags
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-schedule">
-          <a href="/schedule" rel="section">
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
-            Schedule
+            标签
           </a>
         </li>
       
@@ -223,7 +241,7 @@
       
         
       
-      Öhm..! Insgesamt 2 Artikel. Bleib dran.
+      嗯..! 目前共计 1 篇日志。 继续努力。
     </span>
 
     
@@ -247,44 +265,7 @@
 
       <h1 class="post-title">
         
-            <a class="post-title-link" href="/2016/11/02/Wangdeshijie/" itemprop="url">
-              
-                <span itemprop="name">Wangdeshijie</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-11-02T16:57:28+08:00"
-              content="2016-11-02" >
-          11-02
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="//schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2016/11/02/hello-world/" itemprop="url">
+            <a class="post-title-link" href="/2016/11/02/HelloWorld/" itemprop="url">
               
                 <span itemprop="name">Hello World</span>
               
@@ -294,7 +275,7 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2016-11-02T14:45:40+08:00"
+              datetime="2016-11-02T16:57:28+08:00"
               content="2016-11-02" >
           11-02
         </time>
@@ -342,20 +323,34 @@
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="//schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
-               alt="John Doe" />
-          <p class="site-author-name" itemprop="name">John Doe</p>
+               alt="Jacky" />
+          <p class="site-author-name" itemprop="name">Jacky</p>
           <p class="site-description motion-element" itemprop="description"></p>
         </div>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">2</span>
-              <span class="site-state-item-name">Artikel</span>
+              <span class="site-state-item-count">1</span>
+              <span class="site-state-item-name">日志</span>
             </a>
           </div>
 
           
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
 
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
           
 
         </nav>
@@ -393,21 +388,38 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
+  <span class="author" itemprop="copyrightHolder">Jacky</span>
 </div>
 
 <div class="powered-by">
-  Erstellt mit  <a class="theme-link" href="https://hexo.io">Hexo</a>
+  个人专属<!--由 <a class="theme-link" href="https://jiulousanti.github.io/">Hexo</a> 强力驱动-->
 </div>
 
 <div class="theme-info">
-  Theme -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Muse
+  博客 - PMJacky
+  <!--
+  <a class="theme-link" href="https://jiulousanti.github.io/">
+    NexT.Pisces
   </a>
+  -->
+
 </div>
 
         
+
+<div class="busuanzi-count">
+
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+
+  
+    <span class="site-pv">visit <i class="fa fa-eye"></i><span class="busuanzi-value" id="busuanzi_value_site_pv"></span>times</span>
+  
+  
+</div>
+
+
 
         
       </div>
@@ -439,22 +451,22 @@
 
 
   
-  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
 
   
-  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
 
   
-  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
 
   
-  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
 
   
-  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
 
   
-  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
 
   
@@ -468,6 +480,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.2"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.2"></script>
+
+
 
   
   
@@ -486,9 +505,30 @@
 
   
 
+  
+    
+  
 
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"jiulousanti"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
 
   
+    
+    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+    <script src="/js/src/hook-duoshuo.js"></script>
+  
+
+
 
 
 

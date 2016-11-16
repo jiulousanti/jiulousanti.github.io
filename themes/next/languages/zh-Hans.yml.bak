@@ -36,7 +36,7 @@ page:
 
 footer:
   powered: "由 %s 强力驱动"
-  theme: 博客
+  theme: 主题
 
 
 counter:

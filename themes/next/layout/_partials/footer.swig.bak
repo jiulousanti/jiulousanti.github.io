@@ -13,11 +13,10 @@
 </div>
 
 <div class="theme-info">
-  {{ __('footer.theme') }} - PMJacky
+  {{ __('footer.theme') }} -
   <!--
   <a class="theme-link" href="https://jiulousanti.github.io/">
     NexT.{{ theme.scheme }}
   </a>
   -->
-
 </div>
